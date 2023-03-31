@@ -1,0 +1,105 @@
+body{
+    background-color: hsl(217, 54%, 11%);;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 430px;
+    border-radius: 15px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.imagem-nft{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.img-nft{
+    width: 200px;
+    border-radius: 10px;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 16px;
+    padding: 0 0 10px 25px;
+}
+
+.texto-nft{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    padding: 0 0 10px 25px;
+}
+
+th{
+    width: 230px;
+    padding: 15px;
+}
+
+.img-eth{
+    width: 8px;
+    height: 13px;
+    margin: 0 5px;
+}
+
+.eth{
+color: hsl(178, 100%, 50%);
+font-size: 12px;
+font-weight: 600;
+text-align: start;
+}
+
+.img-days{
+    width: 13px;
+    height: 13px;
+    margin: 0 5px;
+}
+
+.days{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: 300;
+    text-align: start;
+}
+
+.creator{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    width: 210px;
+}
+
+.img-avatar{
+    width: 25px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 90px;
+    margin: 15px 10px 0 0;
+}
+
+.creator-text{
+    color: hsl(215, 51%, 70%);
+    font-size: 12px;
+    font-weight: 300;
+    position: relative;
+    top: 7px;
+}
+
+span{
+    color: hsl(0, 0%, 100%);
+}
+
+.img-nft:hover{
+    cursor: pointer;
+}
